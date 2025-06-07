@@ -1,0 +1,11 @@
+A line with six A letters AAAAAA
+This is a simple example
+Counting letters A in line AAAA
+Keep text short and simple
+Another line without A
+AA appears multiple times
+More text with letters
+Almost done with lines
+One more line with A AAAA
+End of the file
+not really, there is more to it!

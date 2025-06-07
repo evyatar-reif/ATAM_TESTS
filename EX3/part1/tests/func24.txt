@@ -1,0 +1,18 @@
+A first line starts with the letter A
+Some lines have no letter A
+Here comes a line with A again AAA
+Another normal text line
+Counting how many A letters there are
+Yet another line to test the code
+Check this line with A and AA in it
+AAA is the count in this line
+No letter A here
+Simple text continues
+A few lines with A again AA
+Random text without A
+Keep checking lines
+A quick count of letter A AA
+Not many As here
+Almost done now
+One last line with AAA
+End of file

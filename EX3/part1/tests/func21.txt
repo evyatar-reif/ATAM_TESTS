@@ -1,0 +1,10 @@
+This is a simple text file with short lines of content.
+Each line will be limited to sixty characters only.
+We can write about anything in this small format.
+Maybe describe a sunny day or a cold rainy night.
+The purpose is to stay within the length constraint.
+No line should go over sixty characters at all.
+This keeps things neat and easy to read and scan.
+It could be a poem, a note, or part of a story.
+Short lines are also great for older terminals.
+You can even write messages for fun like this one.

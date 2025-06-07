@@ -1,0 +1,24 @@
+This line has a lot of letter A AAAAAA
+Counting how many A letters in this one AAAA
+Short and simple line
+Lines capped at sixty characters max
+This line is fine
+No letter A here
+Another line with A and AA
+AAAAAA repeated here again
+Keep the count accurate AAA
+A line with some As AA
+Some lines without any letter
+Almost half done here
+A few more lines with A AAAA
+This is a normal text line
+One more line to add here
+The letter A repeats AAAA
+No As on this one
+Last few lines with A AAA
+End of this file here
+Final line with many As AAAAAA
+Extra lines to reach the limit
+A line with A AAA
+Almost done
+Closing line with A

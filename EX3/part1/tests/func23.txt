@@ -1,0 +1,15 @@
+Simple text with no special cases
+Just adding some lines to test
+Look here: AAAAA is repeated five times
+No special letters in this one
+Counting letter A is important AAAAA
+The letter A appears multiple times here AA
+Short line
+Lines are capped at sixty characters
+Another example with an A or two A
+Final text with several letters
+Including the letter A again AA
+Almost at the end of file
+No more lines left here
+This line also has an A
+Final line for func23

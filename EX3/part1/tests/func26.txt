@@ -1,0 +1,14 @@
+A line with five A letters AAAAA
+Counting letter A carefully
+AAAAA again on this line
+Normal text continues here
+Short line for testing
+No letter A here
+Some lines with A AA
+This is another line
+Text without the letter
+Just a few lines more
+AA again appears here
+Almost done with lines
+One last line with A AAA
+End of file reached

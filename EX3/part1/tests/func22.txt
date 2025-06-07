@@ -1,0 +1,20 @@
+The quick brown fox jumps over the lazy dog
+A sample line with some letter A's included here
+Nothing special on this line
+Another line with an A character
+A quick example that contains several As AAAA
+Short line
+AAAA at the start and some more As AAA
+Some lines may not have the special letter
+Just a random text here
+Lorem ipsum dolor sit amet
+A string with A's at the end AAAAA
+Keep it short and simple
+Try to count the letter A carefully
+No letter here
+A mid line A here too
+Almost done with the lines
+A few more As in this line AAA
+Line without A
+Final line with AAAA here
+End of the file

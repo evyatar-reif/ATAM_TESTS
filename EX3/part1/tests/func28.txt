@@ -1,0 +1,16 @@
+A simple example line AAAAA
+Keep track of the letter A
+Another line with AAA
+No letter A here
+Some text without special char
+AA appears twice here
+Counting lines carefully
+Lines are under sixty chars
+More text with A
+Another example with AAAA
+This is the middle of the file
+Almost done now
+One more line with A AAAA
+No A here
+Final few lines to go
+The last lines with A AAAA

@@ -1,0 +1,21 @@
+Start with a simple line
+Lines with A in the middle AA
+Another line with A again
+No special letters here
+Keep counting the letter A
+AAAA is here again
+More text with A letters
+Almost the middle of lines
+A quick test line AA
+Random text no A here
+Text with A again AAA
+Some lines have no letter
+Short and simple text
+AA again on this one
+Fourth line with letter A AAAA
+No A here
+Almost done now
+Final lines with A AAA
+Closing with some text
+Last line has A too
+End of file reached

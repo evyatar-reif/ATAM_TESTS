@@ -1,0 +1,50 @@
+1.hello world!,l,3
+2.banana,a,3
+3.test,x,0Add commentMore actions
+4.aaaaa,a,5
+5.this is a test string,t,4
+6.special chars #@!,#,1
+7.counting spaces here, ,2
+8.numbers 12345,1,1
+9.mixed CAPS and small,m,2
+10.punctuation!?!,!,2
+11.newline\nincluded,n,4
+12.tabs\tand  spaces, ,2
+13.quotes ' " and `,",1
+14.symbols *&^%$#@!,$,1
+15.empty spaces   , ,4
+16.1234567890abcdef,f,1
+17.capital LETTERS,L,1
+18.lowercase letters,e,4
+19.repeated letters aaaabbbb,a,5
+20.all vowels aeioaeiou,a,3
+21.special chars: €£¥,€,1
+22.mixed 123abc456def,1,1
+23.alpha-numeric 123ABC,A,1
+24.hello\tworld with tab, ,2
+25.CRLF\r\ntest,r,1
+26.punctuations !@#$%^&*(),@,1
+27.leading spaces    test, ,5
+28.trailing spaces test   , ,5
+29.spaces in between test string, ,4
+30.just one letter a,a,1
+31.no matches here,z,0
+32.all the same letterssssss,s,7
+33.multiple special chars !@!@!@,!,3
+34.12345 67890 12345,1,2
+35.mixing numbers and letters 1a2b3c,a,2
+36.short,o,1
+37.medium length string with letters,e,4
+38.symbols and spaces # @ & %,&,1
+39.test with newline\nhere,e,5
+40.tabs\tinside\tstring,i,3
+41.repeats in words words words,w,3
+42.spaces   and tabs\tmixed, ,4
+43.numbers 9876543210,9,1
+44.letters and numbers 123abc,1,1
+45.special chars !@#$%^,%,1
+46.testing tabs	\t\t\t,	,1
+47.line with carriage return\r,r,5
+48.newline and carriage\r\n,n,4
+49.symbols *&^%$,^,1
+50.letters repeated eeeeee,e,11
