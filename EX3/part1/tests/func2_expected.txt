@@ -30,3 +30,6 @@ There are 11 lines. The longest line is of length 31 and the most repeats of the
 ---
 Repeates: 8
 There are 11 lines. The longest line is of length 32 and the most repeats of the special character in a single line is 8.
+---
+Repeates: 0
+There are 1 lines. The longest line is of length 0 and the most repeats of the special character in a single line is 0.

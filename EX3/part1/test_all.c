@@ -4,7 +4,7 @@
 
 #define MAX_EXPECTED_LINES 20
 #define MAX_LINE_LEN 256
-
+#define NUM_OF_TESTS 11
 
 int compute_char_repeats(char* buffer, int line_length, char special_char);
 int parse_lines(char* path, int* line_max_len, int* line_max_repeat);
@@ -104,7 +104,7 @@ int test_func2() {
     int line_max_repeat = 0;
     char path[256];
 
-    const int max_tests = 11;  // func20.txt to func210.txt
+    const int max_tests = NUM_OF_TESTS;  // func20.txt to func210.txt
     char expected_results[max_tests][MAX_LINE_LEN];
     int expected_count = load_expected_results("./tests/func2_expected.txt", expected_results, max_tests);
     if (expected_count < 0) {
@@ -112,7 +112,7 @@ int test_func2() {
         return 1;
     }
 
-    for (int i = 0; i < max_tests; i++) {
+    for (int i = 0; i <= max_tests; i++) {
         snprintf(path, sizeof(path), "./tests/func2%d.txt", i);
        
         line_max_len = 0;
