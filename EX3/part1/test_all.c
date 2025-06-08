@@ -4,7 +4,7 @@
 
 #define MAX_EXPECTED_LINES 20
 #define MAX_LINE_LEN 256
-#define NUM_OF_TESTS 11
+#define NUM_OF_TESTS 12
 
 int compute_char_repeats(char* buffer, int line_length, char special_char);
 int parse_lines(char* path, int* line_max_len, int* line_max_repeat);
@@ -112,7 +112,7 @@ int test_func2() {
         return 1;
     }
 
-    for (int i = 0; i <= max_tests; i++) {
+    for (int i = 0; i < max_tests; i++) {
         snprintf(path, sizeof(path), "./tests/func2%d.txt", i);
        
         line_max_len = 0;
