@@ -67,27 +67,21 @@ int load_expected_results(const char* filename, char expected[][MAX_LINE_LEN], i
 
     int count = 0;
     char line[MAX_LINE_LEN];
+    char separator_line[MAX_LINE_LEN];
 
-    while (fgets(line, sizeof(line), fp) && count < max_results) {
-        char buffer[MAX_LINE_LEN * 2] = "";
-
-        // Append first line
-        strcat(buffer, line);  // includes newline
-
-        // Append second line
-        if (!fgets(line, sizeof(line), fp)) break;
-        strcat(buffer, line);  // includes newline
-
-        // Read and ignore separator (---)
-        fgets(line, sizeof(line), fp);
-
-        // Remove final newline from full buffer (if any)
-        size_t len = strlen(buffer);
-        while (len > 0 && (buffer[len - 1] == '\n' || buffer[len - 1] == '\r')) {
-            buffer[--len] = '\0';
+    while (count < max_results && fgets(line, sizeof(line), fp)) {
+        // Remove newline from line
+        size_t len = strlen(line);
+        while (len > 0 && (line[len-1] == '\n' || line[len-1] == '\r')) {
+            line[--len] = '\0';
         }
 
-        strcpy(expected[count], buffer);
+        strcpy(expected[count], line);
+
+        // Read separator line (---)
+        if (!fgets(separator_line, sizeof(separator_line), fp)) {
+            break; // no separator line, end early
+        }
 
         count++;
     }
@@ -95,9 +89,6 @@ int load_expected_results(const char* filename, char expected[][MAX_LINE_LEN], i
     fclose(fp);
     return count;
 }
-
-
-
 
 int test_func2() {
     int line_max_len = 0;
@@ -114,7 +105,7 @@ int test_func2() {
 
     for (int i = 0; i < max_tests; i++) {
         snprintf(path, sizeof(path), "./tests/func2%d.txt", i);
-       
+
         line_max_len = 0;
         line_max_repeat = 0;
 
@@ -128,8 +119,8 @@ int test_func2() {
         char actual_output[MAX_LINE_LEN];
         snprintf(actual_output, sizeof(actual_output),
                  "There are %d lines. The longest line is of length %d and the most repeats of the special character in a single line is %d.",
-                 line_max_repeat, lines, line_max_len, line_max_repeat);
-		
+                 lines, line_max_len, line_max_repeat);
+
         // Compare with expected result
         if (i < expected_count && strcmp(actual_output, expected_results[i]) == 0) {
             printf("\033[32mTest %d PASSED.\033[0m\n", i);
@@ -141,8 +132,6 @@ int test_func2() {
 
     return 0;
 }
-
-
 
 int main() {
 printf("TESTING FUNCTION 1\n");
