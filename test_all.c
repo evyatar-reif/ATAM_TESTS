@@ -10,7 +10,7 @@ int compute_char_repeats(char* buffer, int line_length, char special_char);
 int parse_lines(char* path, int* line_max_len, int* line_max_repeat);
 
 int test_func1() {
-    char *path = "./tests/func1.txt";
+    char *path = "./ATAM_TESTS/tests/func1.txt";
     FILE *fp = fopen(path, "r");
     if (!fp) {
         perror("Failed to open file.\n");
@@ -97,14 +97,14 @@ int test_func2() {
 
     const int max_tests = NUM_OF_TESTS;  // func20.txt to func210.txt
     char expected_results[max_tests][MAX_LINE_LEN];
-    int expected_count = load_expected_results("./tests/func2_expected.txt", expected_results, max_tests);
+    int expected_count = load_expected_results("./ATAM_TESTS/tests/func2_expected.txt", expected_results, max_tests);
     if (expected_count < 0) {
         printf("Cannot load expected results\n");
         return 1;
     }
 
     for (int i = 0; i < max_tests; i++) {
-        snprintf(path, sizeof(path), "./tests/func2%d.txt", i);
+        snprintf(path, sizeof(path), "./ATAM_TESTS/tests/func2%d.txt", i);
 
         line_max_len = 0;
         line_max_repeat = 0;
@@ -140,4 +140,3 @@ printf("TESTING FUNCTION 2\n");
 	test_func2();
 	return 0;
 }
-

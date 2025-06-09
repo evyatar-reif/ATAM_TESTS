@@ -1,0 +1,11 @@
+Simple text with some A here AAAdd commentMore actions
+Lines without many letters
+Keep testing the letter A
+Another line with letter A
+Random text here
+Almost finished with lines
+Line with AAA in middle
+No letter here
+this is my AAdded Test For YAA
+One more line
+End of the file here

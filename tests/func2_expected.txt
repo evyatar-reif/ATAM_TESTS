@@ -16,8 +16,9 @@ There are 21 lines. The longest line is of length 30 and the most repeats of the
 ---
 There are 16 lines. The longest line is of length 30 and the most repeats of the special character in a single line is 6.
 ---
-There are 11 lines. The longest line is of length 31 and the most repeats of the special character in a single line is 4.
+There are 11 lines. The longest line is of length 54 and the most repeats of the special character in a single line is 4.
 ---
 There are 11 lines. The longest line is of length 32 and the most repeats of the special character in a single line is 8.
 ---
 There are 1 lines. The longest line is of length 0 and the most repeats of the special character in a single line is 0.
+---
