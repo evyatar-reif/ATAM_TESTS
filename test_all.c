@@ -127,7 +127,7 @@ int test_func2() {
         // Build the actual result string to compare
         char actual_output[MAX_LINE_LEN];
         snprintf(actual_output, sizeof(actual_output),
-                 "Repeates: %d\nThere are %d lines. The longest line is of length %d and the most repeats of the special character in a single line is %d.",
+                 "There are %d lines. The longest line is of length %d and the most repeats of the special character in a single line is %d.",
                  line_max_repeat, lines, line_max_len, line_max_repeat);
 		
         // Compare with expected result
